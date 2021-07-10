@@ -12,7 +12,7 @@ SRC_URI="https://github.com/dylanaraps/pfetch/archive/${PV}.tar.gz -> ${P}.tar.g
 LICENSE="MIT"
 SLOT="0"
 
-PATCHES=("${FILESDIR}"/patches")
+PATCHES=("${FILESDIR}/patches")
 
 src_install() {
 	dobin "${PN}"
