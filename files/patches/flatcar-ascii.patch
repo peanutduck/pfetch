@@ -1,0 +1,35 @@
+--- a/pfetch
++++ b/pfetch
+@@ -1324,6 +1324,32 @@ get_ascii() {
+ 			EOF
+         ;;
+ 
++        [Ff]latcar*)
++            read_ascii 1 <<-EOF
++                ${c1}         KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK            
++                ${c1}         NN'     0d  :NNNNNk    xNN;      'NN            
++                ${c1}         NN.  ;ccKd  ,NNNN.      'N'      .NN            
++                ${c1}         NN.  ;ccKd  ,NNNN.  dx  .NXXl  ;XXNN            
++                ${c1}         NN.     Od  ,XXXN.      .NNNl  ;NNNN            
++                ${c1}         NN.  ONNNd     ,N.  xk  .NNNl  ;NNNN            
++                ${c1}         NN'  0NNNd     :N'  xO  'NNNo  :NNNN            
++                ${c1}      ...NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN...         
++                ${c1}      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.        
++                ${c1}      NNK;;;;;;;;:NNX;;;;;;;;;XNN:;;;;;;;;;;;KNN.        
++                ${c1}      NN0         Nd'         'dN            0NN.        
++                ${c1}   .  NN0         N:    ddo    :N    .dd,    0NN. .      
++                ${c1}   N; NN0    ,dddxN:    '''    :N    .''.    0NN.;N.     
++                ${c1}   N; NN0    lNNNNN:           :N            0NN.;N.     
++                ${c1}   N; NN0    .''',N:    xxd    :N    'x    'xXNN.;N.     
++                ${c1}   N; NN0         N:    NNK    :N    ;Nk;   'KNN.;N.     
++                ${c1}   N; NN0         N:    NNK    :N    ;NNl    0NN.;N.     
++                ${c1} .:No:NNXkkkkkkkkON0kkkONNXkkkk0NOkkk0NNKkkkkXNN:oN:.    
++                ${c1} lNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNo    
++                ${c1} ,oo0NNNXoONNNXooooooooooooooooooooooooXNNNOoXNNNOoo,    
++                ${c1}    ,lllc 'lllc                        clll' clll'
++            EOF
++        ;;
++
+         [Pp]arabola*)
+             read_ascii 5 <<-EOF
+ 				${c5}  __ __ __  _
